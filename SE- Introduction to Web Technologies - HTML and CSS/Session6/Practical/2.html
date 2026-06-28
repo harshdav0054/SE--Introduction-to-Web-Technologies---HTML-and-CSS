@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2: Flipkart Product Tile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            padding: 40px;
+            margin: 0;
+        }
+
+        .product-tile {
+            width: 220px;
+            background: #ffffff;
+            border: 1px solid white;
+            border-radius: 4px;
+            padding: 16px;
+            text-align: center;
+            display: inline-block; 
+            vertical-align: top;
+            margin: 15px;
+        }
+
+        .product-tile:hover {
+            background-color: bisque;
+        }
+
+        .product-image {
+            width: 150px;
+            height: 150px;
+            display: block; 
+            margin: 0 auto 12px auto;
+        }
+
+        .product-name {
+            font-size: 14px;
+            font-weight: 400;
+            color: #212121;
+            margin: 8px 0;
+        }
+
+        .product-price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #388e3c;
+            display: block; 
+            margin-top: 6px;
+        }
+
+        .hide-price {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-tile">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=200" alt="Headphones" class="product-image">
+        <h4 class="product-name">Wireless ANC Headphones</h4>
+        <div class="product-price">₹1,499</div>
+    </div>
+
+    <div class="product-tile">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200" alt="Shoes" class="product-image">
+        <h4 class="product-name">Sports Running Shoes</h4>
+        
+        <div class="product-price hide-price">₹2,999</div>
+    </div>
+
+</body>
+</html>

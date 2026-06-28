@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.center{
+    text-align: center;
+    margin-top: 100px;
+}
+
+button{
+    background-color: #e20b1d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #e56772;
+}

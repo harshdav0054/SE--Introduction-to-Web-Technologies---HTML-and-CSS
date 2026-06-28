@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookMyShow Movie Page</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container{
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+
+        #theme:checked ~ .container{
+            background-color: #121212;
+            color: white;
+        }
+
+        label{
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <label>
+        <input type="checkbox" id="theme">
+        Dark Mode
+    </label>
+
+    <br><br>
+
+    <div class="container" id="theme">
+
+        <h1>The Big Bull</h1>
+
+        <p>
+            The Big Bull is a financial crime drama inspired by real stock market events.
+            The movie showcases ambition, success, and the challenges faced in the world of finance.
+        </p>
+
+        <h3>Rating: 4.3/5</h3>
+
+    </div>
+
+</body>
+</html>

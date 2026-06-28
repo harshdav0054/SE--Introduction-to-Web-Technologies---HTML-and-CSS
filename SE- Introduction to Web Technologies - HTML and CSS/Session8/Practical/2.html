@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            display: flex;
+            border: 1px solid black;
+            padding: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .card img {
+            width: 250px;
+            margin-right: 20px;
+        }
+
+        /* Mobile View */
+        @media(max-width:600px) {
+            .card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .card img {
+                margin-right: 0;
+                margin-bottom: 15px;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card"> <img src="laptop.jpg" alt="Laptop">
+        <div>
+            <h2>Lenovo LOQ 15IAX9</h2>
+            <p>Gaming Laptop</p>
+            <h3>₹65,999</h3>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+</head>
+<body>
+    <form method="post"> 
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required> 
+        <br><br> <label for="rating">Rating:</label> 
+        <select id="rating" name="rating" required> 
+            <option value="" selected disabled>Select Rating</option> 
+            <option value="1">1 Star</option> 
+            <option value="2">2 Stars</option> 
+            <option value="3">3 Stars</option> 
+            <option value="4">4 Stars</option> 
+            <option value="5">5 Stars</option> 
+        </select> 
+        <br><br> 
+        <label for="review">Review Message:</label><br> 
+        <textarea id="review" name="review" minlength="20" required></textarea> 
+        <br><br> 
+        <input type="submit" value="Submit Review"> 
+    </form> 
+    <br> 
+    <em>
+        <strong>Validation Applied:</strong>
+    </em> 
+    <ul> 
+        <li>Username is required.</li> 
+        <li>Rating must be selected.</li> 
+        <li>Review message must contain at least 20 characters.</li> 
+    </ul>
+</body>
+</html>
